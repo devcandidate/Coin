@@ -49,4 +49,4 @@ Parametry w query stringu:
 
 
 To endpoint synchronizacyjny dzięki któremu możemy pobrać, wypełnić lub przeładować bazę danych kursami z NBP dla danego zakresu dat.
-Niezależnie od manualnych działań przy jego użyciu o 12:05 każdego dnia wywoła się zadanie ```ExchangeRatesSyncJob```, które przez Hangfire pobierze nowe kursy po ich udostępnieniu przez NBP.
+Niezależnie od manualnych działań przy jego użyciu o 12:05 (docelowo warto to przenieść do konfiguracji) każdego dnia wywoła się zadanie ```ExchangeRatesSyncJob```, które przez Hangfire pobierze nowe kursy po ich udostępnieniu przez NBP.
