@@ -38,7 +38,7 @@ Parametry:
 * date - Data w formacie yyyy-MM-dd (np. 2024-12-01).
 * currency - Kod waluty w formacie ISO 4217 (np. EUR, USD).
 
-## Endpoint administracyjny do synchronizacji kursów dla zakresu dat z NBP
+## Endpoint administracyjny (wewnętrzny) do synchronizacji kursów dla zakresu dat z NBP
 ``` GET http://localhost:8080/api/System/SyncExchangeRates?startDate=2024-12-03&endDate=2024-12-03```
 
 * startDate - Data początkowa w formacie yyyy-MM-dd.
