@@ -33,13 +33,15 @@ Po uruchomieniu aplikacja będzie dostępna pod adresem: ```http://localhost:808
 
 Endpoint zwróci kurs jeżeli jest już on zsynchronizowany w bazie danych.
 
-Parametry:
+Parametry w url:
 
 * date - Data w formacie yyyy-MM-dd (np. 2024-12-01).
 * currency - Kod waluty w formacie ISO 4217 (np. EUR, USD).
 
 ## Endpoint administracyjny (wewnętrzny) do synchronizacji kursów dla zakresu dat z NBP
 ``` GET http://localhost:8080/api/System/SyncExchangeRates?startDate=2024-12-03&endDate=2024-12-03```
+
+Parametry w query stringu:
 
 * startDate - Data początkowa w formacie yyyy-MM-dd.
 * endDate - Data końcowa w formacie yyyy-MM-dd.
